@@ -1,0 +1,225 @@
+*
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*Navbar*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    margin: auto;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    border: 1px solid rgba(0,0,0,0,0.03);
+    position: absolute;
+    top: 50px;
+}
+
+.menu{
+    display: flex;
+    align-items: right;
+}
+
+.menu li a{
+    margin: 5px;
+    padding: 5px 20px;
+    color: #000000;
+    font-weight: 500;
+    opacity: 0.4;  
+    transition: all ease 0.3s;
+
+}
+.menu .active{
+    opacity: 1;
+}
+.menu li a:hover{
+    opacity: 1;
+}
+
+.logo{
+    width: 2px;
+    height: 2px;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.right-elements{
+    margin: 0px 10px;
+
+}
+
+.right-elements a{
+    margin: 0px 10px;
+}
+
+.right-elements i{
+    color: #2e2e2e;
+}
+
+.right-elements a:hover i{
+    color: #6b6b6b;
+    transition: all ease 0.2s;
+
+}
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.main-text{
+    position: absolute;
+    bottom: 250px;
+    left: 150px;
+    
+}
+
+#Buttons{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 100px;
+    bottom: -40px;
+
+}
+
+#Shortcut{
+    position: relative;
+    left: 200px;
+}
+
+.background-image{
+    margin: 0px;
+    padding: 0px;
+        
+}
+    
+.background-image-img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*Footer*/
+footer .footer-container{
+  background:var(--white-color);
+  border:.1rem solid var(--light-color);
+  border-radius: 0.5rem;
+  padding:1rem;
+}
+
+footer .footer-container .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:-4rem;
+}
+
+footer .footer-container .box-container .box{
+  flex:1 1 25rem;
+}
+
+footer .footer-container .box-container .box h3{
+  font-size: 1rem;
+  padding:1rem 0;
+}
+
+footer .footer-container .box-container .box a{
+  display: block;
+  color:var(--black-color);
+  font-size: 1rem;
+  padding:1rem 0;
+  font-weight: 300;
+}
+
+
+footer .footer-container .box-container .box img{
+  margin-top: 1rem;
+}
+
+footer .footer-container .credit{
+  font-size: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: .1rem solid var(--light-color);
+  color:var(--black-color);
+  text-align: center;
+}
+
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding:1.5rem;
+    }
+
+    section{
+        padding:1.5rem;
+    }
+
+    .main-content .main-text h1{
+        font-size: 5rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    header{
+        flex-flow: column;
+    }
+
+    header form{
+        width:100%;
+        margin:2rem 0;
+    }
+
+    header.active{
+        transform: translateY(-12.5rem);
+    }
+
+    .main-content .main-text{
+        text-align: center;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .heading{
+        text-align: center;
+        font-size: 2.5rem;
+        border-bottom: none;
+    }
+
+}
